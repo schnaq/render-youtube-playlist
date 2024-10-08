@@ -50,7 +50,7 @@ function getPlaylistVideos() {
         });
       })
       .catch((error) => {
-        console.error("Fehler beim Abrufen der Playlist-Daten:", error);
+        console.error("Error querying playlist data:", error);
       });
   });
 }
